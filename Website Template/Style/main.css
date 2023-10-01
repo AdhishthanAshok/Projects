@@ -1,0 +1,250 @@
+.first {
+  position: relative;
+  background-color: rgba(239, 240, 255, 255);
+  width: 100%;
+  margin-top: 80px;
+  height: 90vh;
+}
+.first-content {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+  width: 550px;
+  height: 310px;
+}
+#first-content-p {
+  color: rgb(61, 46, 124);
+  width: 550px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 25px;
+}
+#first-btn {
+  border: none;
+  margin: 40px 0 0 0;
+  font-size: x-large;
+  padding: 24px 80px 24px 80px;
+  border-radius: 40px;
+  color: white;
+  background-color: rgb(86, 90, 221);
+}
+
+.first-image-bg {
+  position: relative;
+  top: 15%;
+  left: 50%;
+  width: 600px;
+  height: 460px;
+  border-radius: 25px;
+  background-color: rgba(159, 146, 236, 255);
+}
+
+.first-image {
+  position: absolute;
+  width: 468px;
+  top: 11%;
+  left: 11%;
+  border-radius: 30px;
+}
+
+.second-1 {
+  position: relative;
+  top: 12%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+#heading {
+  color: rgb(35, 35, 35);
+  font-size: 80px;
+  margin-left: 40%;
+  margin-bottom: 35px;
+}
+.feature-box {
+  display: flex;
+  justify-content: center;
+}
+.features {
+  width: 298px;
+  position: relative;
+  margin-right: 30px;
+}
+.img-head {
+  width: 250px;
+  margin-bottom: 15px;
+}
+.feature-heading {
+  position: absolute;
+  padding-left: 15px;
+  top: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+.feature-content {
+  margin-top: 25px;
+  color: rgb(119, 119, 119);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.third {
+  position: relative;
+  top: 20%;
+  margin-top: 90px;
+  height: 450px;
+}
+
+.third-content {
+  position: relative;
+  padding-top: 40px;
+  top: 20%;
+  left: 60%;
+  width: 550px;
+  height: 260px;
+}
+#third-content-p {
+  padding-left: 80px;
+  color: rgb(35, 35, 35);
+  width: 550px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.third-image {
+  position: absolute;
+  width: 628px;
+  height: 418px;
+  top: 0%;
+  left: 11%;
+  border-radius: 30px;
+}
+p#productivity-content {
+  font-weight: 900;
+  width: 350px;
+}
+
+.third-content-logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+.third-logo-head {
+  display: grid;
+  grid-template-columns: 80px 100px;
+}
+
+.fourth {
+  position: relative;
+  top: 20%;
+  margin-top: 90px;
+  height: 450px;
+}
+.fourth-content {
+  position: relative;
+  padding-top: 40px;
+  top: 20%;
+  left: 10%;
+  width: 550px;
+  height: 260px;
+}
+strong {
+  font-size: 51.2px;
+  color: rgb(35, 35, 35);
+  font-size: 400;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 56.3167px;
+}
+#fourth-content-p {
+  padding-left: 80px;
+  color: rgb(61, 46, 124);
+  width: 550px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 25px;
+}
+p#optimize-heading {
+  font-weight: 900;
+  width: 350px;
+}
+
+.fourth-content-logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+.fourth-logo-head {
+  display: grid;
+  grid-template-columns: 80px 100px;
+}
+
+.fourth-image {
+  position: absolute;
+  width: 628px;
+  height: 418px;
+  top: 11%;
+  left: 50%;
+  border-radius: 30px;
+}
+
+.fifth {
+  background-color: rgb(239, 240, 255);
+  position: relative;
+  top: 25%;
+  margin-top: 70px;
+  height: 884px;
+}
+.fifth-heading {
+  padding-top: 50px;
+  position: absolute;
+  left: 22%;
+  font-size: 78px;
+  color: rgb(27, 34, 75);
+  font-weight: 600;
+}
+
+.fifth-1 {
+  width: 518px;
+  height: 572px;
+  position: absolute;
+  top: 25%;
+  left: 18%;
+  border: 1px solid red;
+  background-color: rgb(209, 209, 247);
+  border-radius: 30px;
+  box-shadow: rgb(211, 211, 211) 0px 0px 20px 0px;
+}
+
+.fifth-head {
+  position: absolute;
+  top: 10%;
+  left: 13%;
+}
+.fifth-head-content {
+  line-height: 70px;
+  color: #1f357f;
+  font-size: 1.4rem;
+}
+
+.fifth-list {
+  width: 422px;
+  list-style-type: none;
+  position: absolute;
+  top: 35%;
+  left: 14%;
+}
+.fifth-list[li] {
+  padding: 10px;
+}
+.fifth-list-items {
+  padding: 10px;
+}
+
+.fifth-list-items::before {
+  content: "\2022";
+  color: #565add;
+  font-weight: 300;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+}

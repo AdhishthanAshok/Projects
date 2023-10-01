@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1030;
+  top: 0%;
+  height: 80px;
+  box-shadow: 0 1px 7px gray;
+}
+.header-logo {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  position: absolute;
+  margin: 0 0 0 120px;
+}
+.header-logo-name {
+  display: inline-block;
+  font-size: 20px;
+  margin: 27px 0 0 17px;
+}
+p#header-logo-name {
+  font-weight: 900;
+  letter-spacing: -1px;
+  width: 130px;
+}
+.header-logo-img {
+  position: absolute;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+}
+.header-details {
+  display: flex;
+  position: fixed;
+  left: 39%;
+}
+.header-item {
+  margin: 15px 0 0 50px;
+  display: flex;
+  justify-content: center;
+}
+.items {
+  padding: 15px 20px 15px 20px;
+  list-style-type: none;
+  font-size: 17.6px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.btn-items-1,
+.btn-items-2 {
+  list-style-type: none;
+  padding: 14px 20px 10px 20px;
+  display: inline-block;
+}
+.btn-items-2 {
+  border-radius: 30px;
+  background-color: rgb(239, 240, 255);
+  padding: 13px 25px 13px 25px;
+}
+.btn-items-2:hover {
+  box-shadow: 0px 0px 30px 0px rgba(86, 90, 221, 0.3) !important;
+  transform: scale(1.02) translateY(-2px);
+}
+.btn-items-2:active {
+  transition-duration: 0.1s;
+  border: 3px solid lightgreen;
+  scale: 1.01;
+}
+#get-started-btn {
+  color: white;
+  border-radius: 30px;
+  display: inline-block;
+  background-color: darkblue;
+  padding: 15px 35px 15px 35px;
+}
+#help-btn {
+  color: blue;
+}
+#header-btns {
+  display: inline-block;
+}

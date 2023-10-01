@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  height: 100;
+  width: 100;
+}
+#center {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+p {
+  width: 100px;
+  display: inline-block;
+  font-size: x-large;
+  color: green;
+  margin: 80px 170px 80px 150px;
+}
