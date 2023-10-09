@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url(https://e0.pxfuel.com/wallpapers/452/479/desktop-wallpaper-grey-material-design-laptop-gray-laptop.jpg);
+  /* background-image:url(https://wallpapercave.com/wp/wp10090368.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.container {
+  width: 900px;
+  background: #3d3e43;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.translator_property {
+  border: 3px solid #3d3e43;
+}
+.translator_property .nuv_item {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #00b4d3;
+  padding: 0 20px;
+}
+.translator_property .nuv_item li select {
+  outline: none;
+  border-style: none;
+  padding: 10px 10px 10px 5px;
+  /* appearance: none; */
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #323434;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.translator_property .nuv_item li select:hover {
+  color: #ffffff;
+}
+.bx-transfer {
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.bx-transfer:hover {
+  color: #a4ffbc;
+}
+
+.write_box {
+  display: flex;
+  margin-top: 15px;
+}
+.Property_from,
+.Property_trans {
+  width: 100%;
+  position: relative;
+}
+.write_box textarea {
+  width: 100%;
+  height: 250px;
+  border-style: none;
+  outline: none;
+  resize: none;
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 20px;
+  color: #e6e0e0;
+  position: relative;
+}
+.write_box textarea:nth-child(1) {
+  background-color: #323434;
+  border-right: 1px solid #00ac98;
+}
+.write_box .icons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.icons .bx {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: #2e2d2d;
+  line-height: 35px;
+  font-size: 18px;
+  color: #fff4f4;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.icons .bx:hover {
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.code_length{
+  color: rgb(231, 223, 223);
+}
