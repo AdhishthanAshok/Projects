@@ -14,15 +14,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;  
 }
+h1{
+  position: absolute;
+  top: 12%;
+  left: 36%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: aqua;
+  font-size: xx-larger;
+}
+#header{
+      line-height: 2px ;
+      text-decoration-line: underline;
+}
 .container {
   width: 900px;
   background: #3d3e43;
+ 
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   overflow: hidden;
 }
 .translator_property {
-  border: 3px solid #3d3e43;
+  border: 3px solid #6b6b6c;
 }
 .translator_property .nuv_item {
   display: flex;
@@ -32,8 +47,9 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  border-bottom: 1px solid #00b4d3;
+  border-bottom: 1px solid rgba(42,42,42,255);
   padding: 0 20px;
+  background-color: rgba(42,42,42,255);
 }
 .translator_property .nuv_item li select {
   outline: none;
@@ -43,13 +59,15 @@ body {
   text-align: center;
   font-size: 17px;
   font-weight: 500;
-  background-color: #323434;
+  background-color: rgba(42,42,42,255);
   color: #ffffff;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 .translator_property .nuv_item li select:hover {
-  color: #ffffff;
+  color: aqua;
+  scale: 1.1;
+
 }
 .bx-transfer {
   font-size: 22px;
@@ -59,7 +77,8 @@ body {
 }
 
 .bx-transfer:hover {
-  color: #a4ffbc;
+  scale: 1.1;
+  color: aqua;
 }
 
 .write_box {
@@ -80,11 +99,12 @@ body {
   padding: 10px 20px;
   margin: 0;
   font-size: 20px;
-  color: #e6e0e0;
+  color: aqua;
   position: relative;
 }
 .write_box textarea:nth-child(1) {
-  background-color: #323434;
+  background-color:  rgba(64,64,64,255);
+  border-left: 1px solid #00ac98;
   border-right: 1px solid #00ac98;
 }
 .write_box .icons {
@@ -112,8 +132,9 @@ body {
 }
 
 .icons .bx:hover {
+  scale: 1.2;
   background: #000000;
-  color: rgb(255, 255, 255);
+  color: aqua;
 }
 
 .code_length{
