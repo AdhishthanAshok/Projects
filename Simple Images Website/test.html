@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .div1 {
+        height: 100vh;
+        width: 100vw;
+        background-color: aqua;
+        position: relative;
+      }
+      .div2 {
+        height: 100vh;
+        width: 100vw;
+        background-color: blue;
+        position: relative;
+      }
+      .div3 {
+        height: 100vh;
+        width: 100vw;
+        background-color: red;
+        position: relative;
+      }
+      img {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+      }
+      #img1 {
+        top: 10%;
+        left: 60%;
+      }
+      #img2 {
+        top: 10%;
+        left: 10%;
+      }
+      #img3 {
+        top: 10%;
+        left: 60%;
+      }
+      .content-1 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height: 500px;
+        width: 400px;
+        border: 1px solid black;
+      }
+      .content-2 {
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        height: 500px;
+        width: 400px;
+        border: 1px solid black;
+      }
+      .content-3 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        height: 500px;
+        width: 400px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="content-1"></div>
+      <img src="" alt="HERE IS AN IMAGE" id="img1" />
+    </div>
+    <div class="div2">
+      <img src="" alt="HERE IS AN IMAGE" id="img2" />
+      <div class="content-2"></div>
+    </div>
+
+    <div class="div3">
+      <div class="content-3"></div>
+      <img src="" alt="HERE IS AN IMAGE" id="img3" />
+    </div>
+  </body>
+</html>
