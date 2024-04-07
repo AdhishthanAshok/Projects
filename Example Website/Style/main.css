@@ -27,6 +27,14 @@
   border-radius: 40px;
   color: white;
   background-color: rgb(86, 90, 221);
+  transition: all ease 0.3s;
+}
+#first-btn:hover {
+  scale: 1.1;
+  color: black;
+}
+#first-btn:active {
+  opacity: 0.6;
 }
 
 .first-image-bg {
