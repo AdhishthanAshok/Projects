@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.nav_logo_name {
+  display: flex;
+  margin-left: 1vw;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav_logo_name img {
+  height: 10vh;
+}
+.nav_logo_name p {
+  margin-left: 5px;
+  font-size: 6vh;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(43, 42, 42);
+}
+.nav_details {
+  float: right;
+  margin-right: 1vw;
+  display: flex;
+}
+.nav_main_headings li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2vh 2vw 2vh 2vw;
+  margin: 2vh 1vw 1vh 1vw;
+  cursor: pointer;
+  font-size: medium;
+  transition: all ease 0.25s;
+}
+.nav_main_headings li:hover {
+  scale: 1.2;
+  border-bottom: 2px solid red;
+}
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.login {
+  margin-right: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: x-large;
+  border-radius: 25x;
+  background-color: green;
+  border: none;
+  color: White;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.login:hover {
+  scale: 1.1;
+}
+.login:active {
+  background-color: black;
+  color: white;
+}
+.nav_buttons img {
+  margin-left: 10px;
+  height: 8vh;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
