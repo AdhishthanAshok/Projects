@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 0 5px 0;
-  border-bottom: 1px solid gray;
 }
 
 .nav_logo_name {
@@ -26,23 +25,35 @@
   font-family: "Times New Roman", Times, serif;
   color: rgb(43, 42, 42);
 }
+.nav_main_headings ul {
+  padding-bottom: 1vh;
+}
 .nav_details {
   float: right;
   margin-right: 1vw;
   display: flex;
 }
-.nav_main_headings li {
+.nav_main_headings ul li {
   display: inline-block;
   box-sizing: border-box;
-  padding: 2vh 2vw 2vh 2vw;
-  margin: 2vh 1vw 1vh 1vw;
+  padding: 1vh 2vw 1vh 2vw;
+  margin: 1vh 1vw 1vh 1vw;
   cursor: pointer;
-  font-size: medium;
+  font-size: 3vh;
+  color: #212121;
   transition: all ease 0.25s;
 }
-.nav_main_headings li:hover {
-  scale: 1.2;
-  border-bottom: 2px solid red;
+.nav_list_items hr {
+  border: none;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: 10%;
+  border-radius: 10px;
+  width: 80%;
+  height: 3px;
+}
+.nav_list_items {
+  color: rgba(65, 81, 97, 255);
 }
 .nav_buttons {
   display: flex;
@@ -54,19 +65,21 @@
   width: 100px;
   height: 40px;
   font-size: x-large;
-  border-radius: 25x;
-  background-color: green;
-  border: none;
-  color: White;
+  border-radius: 30px;
+  background-color: rgb(248, 248, 248);
+  border: 1ox solid gray;
+  text-decoration: none;
   cursor: pointer;
-  transition: 0.25s;
+  transition: all 0.25s;
 }
 .login:hover {
   scale: 1.1;
+  color: white;
+  background-color: #94cde4;
 }
 .login:active {
-  background-color: black;
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
 }
 .nav_buttons img {
   margin-left: 10px;
