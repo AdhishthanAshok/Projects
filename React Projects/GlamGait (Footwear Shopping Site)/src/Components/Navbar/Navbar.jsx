@@ -72,10 +72,16 @@ function Navbar() {
         </div>
       </div>
       <div className="nav_buttons">
-        <button className="login">
-          <Link style={{ textDecoration: "none" }} to="/login">
+        <button
+          className="login"
+          onClick={() => {
+            setMenu("Login");
+          }}
+        >
+          <Link style={{ textDecoration: "none", color: "white" }} to="/login">
             Login
           </Link>
+          {menu === "Login" ? <></> : <></>}
         </button>
         <Link style={{ textDecoration: "none" }} to={"/profile"}>
           <img src={profile_logo} alt="" />

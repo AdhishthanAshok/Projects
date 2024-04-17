@@ -9,7 +9,7 @@ let data_product = [
     name: "NIKE Running Shoes , Red , White Sole",
     image: p1_img,
     new_price: 5000.0,
-    old_price: 8000.0,
+    old_price: 7000.0,
   },
   {
     id: 2,
