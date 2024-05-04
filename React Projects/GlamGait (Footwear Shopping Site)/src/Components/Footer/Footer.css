@@ -1,0 +1,39 @@
+.main_footer {
+  height: 50vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_footer h2 {
+  float: left;
+  color: Red;
+  font-weight: 700;
+  margin: 20px;
+  font-size: 600;
+}
+
+.main_footer_content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10%;
+}
+
+.customer_service,
+.footer_company,
+.connect_with_us,
+.keep_up_to_date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+input,
+button {
+  display: block;
+  margin-bottom: 20px;
+  width: 100px;
+}
+input:focus {
+  width: 100px;
+}

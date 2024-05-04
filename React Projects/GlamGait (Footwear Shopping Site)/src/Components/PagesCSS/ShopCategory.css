@@ -1,0 +1,33 @@
+.main_shop_category {
+  background-color: #fff;
+  height: 100%;
+  width: 100vw;
+}
+
+.shop_category_popular_item {
+  display: flex;
+  gap: 5%;
+}
+
+.shop_category_popular_item .item_prices_new {
+  color: #212121;
+}
+
+.shop_category_main_heading {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.shop_category_popular_item .item:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  border: 1px solid #212121;
+}
+
+.item:active {
+  scale: 0.9;
+  border: 1px solid #212121;
+}
