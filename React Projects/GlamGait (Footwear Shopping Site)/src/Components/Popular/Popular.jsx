@@ -1,14 +1,12 @@
 import React from "react";
 import "./Popular.css";
-import data_product from "../assets/data";
+import { data_product, data_product1 , data_product2 } from "../assets/data";
 import Item from "../Item/Item";
 
 const Popular = () => {
   return (
     <div className="popular">
-      <h1>
-        TRENDING FOOTWEAR
-      </h1>
+      <h1>TRENDING FOOTWEAR</h1>
       <div className="popular_item">
         {data_product.map((item, i) => (
           <Item
@@ -21,7 +19,9 @@ const Popular = () => {
           />
         ))}
       </div>
-      <button>Explore More &#8594; </button>
+      <div className="popular_button">
+        <button>Explore More &#8594; </button>
+      </div>
     </div>
   );
 };
