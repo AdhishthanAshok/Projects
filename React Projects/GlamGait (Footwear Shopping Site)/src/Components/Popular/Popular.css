@@ -3,7 +3,7 @@
   height: 100vh;
 }
 .popular h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: white;
   letter-spacing: 4px;
@@ -15,20 +15,26 @@
   justify-content: space-around;
   gap: 5%;
 }
-.popular button {
-  width: 25%;
-  height: 8%;
+.popular_button {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 37.5%;
+}
+.popular_button button {
+  width: 25%;
+  height: 8%;
   border: none;
   font-size: 2rem;
   background-color: aqua;
   cursor: pointer;
+  transition: width ease-in 0.1s;
 }
-.popular button:active {
+.popular_button button:hover {
+  width: 30%;
+  border: 1px solid black;
+}
+.popular_button button:active {
   color: black;
   background-color: white;
 }

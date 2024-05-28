@@ -10,7 +10,6 @@ function Navbar() {
     <div className="nav_main">
       <div className="nav_logo_name">
         <img src={logo} alt="" />
-        <p>GlamGait</p>
       </div>
       <div className="nav_details">
         <div className="nav_main_headings">
@@ -79,7 +78,7 @@ function Navbar() {
           }}
         >
           <Link style={{ textDecoration: "none", color: "white" }} to="/login">
-            Login
+            <button className="navbar_login_button"> Login</button>
           </Link>
           {menu === "Login" ? <></> : <></>}
         </button>

@@ -28,12 +28,12 @@
   justify-content: space-around;
   align-content: space-around;
 }
-input,
-button {
+.footer-input input,
+.footer-input button {
   display: block;
   margin-bottom: 20px;
-  width: 100px;
+  width: 150px;
 }
-input:focus {
+.footer-input input:focus {
   width: 100px;
 }

@@ -6,11 +6,13 @@
 .nav_main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5px 0 5px 0;
 }
 
 .nav_logo_name {
   display: flex;
+  width: 15vw;
   margin-left: 1vw;
   align-items: center;
   cursor: pointer;
@@ -18,12 +20,6 @@
 
 .nav_logo_name img {
   height: 10vh;
-}
-.nav_logo_name p {
-  margin-left: 5px;
-  font-size: 6vh;
-  font-family: "Times New Roman", Times, serif;
-  color: rgb(43, 42, 42);
 }
 .nav_main_headings ul {
   padding-bottom: 1vh;
@@ -60,29 +56,9 @@
 .nav_buttons {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 20px;
 }
-/* .login {
-  margin-right: 10px;
-  width: 100px;
-  height: 40px;
-  font-size: x-large;
-  border-radius: 30px;
-  background-color: rgb(248, 248, 248);
-  border: 1px solid gray;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.25s;
-}
-.login:hover {
-  scale: 1.1;
-  color: white;
-  background-color: #94cde4;
-}
-.login:active {
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-} */
+
 .nav_buttons img {
   margin-left: 10px;
   height: 8vh;
@@ -90,52 +66,31 @@
   border: 1px solid gray;
   cursor: pointer;
 }
-
-.border_login {
-  background-color: red;
-}
-
-/* CSS */
 .login {
-  align-items: center;
-  background-color: initial;
-  background-image: linear-gradient(#464d55, #25292e);
-  border-radius: 8px;
-  border-width: 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05);
-  box-sizing: border-box;
-  color: #fff;
+  border: none;
+}
+
+.navbar_login_button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 8vw;
+  height: 6vh;
+  font-size: 1.5rem;
+  transition: all ease-in 0.25s;
+}
+
+.navbar_login_button:hover {
   cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  font-family: expo-brand-demi, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 18px;
-  height: 52px;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  overflow: hidden;
-  padding: 0 32px;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all 150ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  background-color: black;
+  color: white;
 }
-
-.login:active {
-  outline: 0;
-}
-
-@media (max-width: 420px) {
-  .login {
-    height: 48px;
-  }
+.navbar_login_button:focus {
+  width: 4vw;
+  background-color: aqua;
+  color: #212121;
+  height: 7vh;
+  border-radius: 50%;
+  margin-right: 2vw;
 }

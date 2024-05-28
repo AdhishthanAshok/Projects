@@ -1,16 +1,15 @@
 .hero {
-  padding-top: 5%;
-  padding-left: 2%;
   display: flex;
   height: 100vh;
   color: rgba(65, 81, 97, 255);
   justify-content: space-evenly;
-  align-items: space-evenly;
+  align-items: center;
 }
 .hero_left {
   display: flex;
+  justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   height: 100%;
   padding: 5%;
   position: relative;
@@ -24,16 +23,20 @@
   font-size: 2rem;
   background-color: aqua;
   cursor: pointer;
+  transition: width ease-in 0.1s;
+}
+.hero_left button:hover {
+  width: 60%;
+  border: 1px solid black;
 }
 .hero_left button:active {
   color: white;
   background-color: black;
-  
 }
 .hero_right {
   flex: 1;
 }
 .hero_right img {
-  width: 90%;
+  width: 80%;
   float: inline-end;
 }

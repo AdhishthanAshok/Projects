@@ -1,11 +1,12 @@
 .login_page_body {
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .login_page {
   scale: 1.2;
-  margin-top: 10vh;
+  margin-top: -5vh;
   border: 1px solid white;
   box-shadow: 1px 1px 5px -1px black;
   transition: all ease-in 0.2ms;

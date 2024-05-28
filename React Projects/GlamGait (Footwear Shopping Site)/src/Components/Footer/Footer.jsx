@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="keep_up_to_date">
           <h3>Customer Service</h3>
-          <div>
+          <div className="footer_input">
             <input type="text" placeholder="Your Mail.." />
             <button>Submit</button>
           </div>
