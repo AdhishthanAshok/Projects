@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #242a2a;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: aqua;
+  margin: 20px 0 40px 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#search-input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+#search-button {
+  padding: 10px 15px;
+  background-color: aqua;
+  color: black;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.search-result {
+  width: calc(33.333% - 20px);
+  margin-bottom: 20px;
+  background-color: rgb(4, 188, 188);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgb(19, 97, 161);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.search-result a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  text-transform: capitalize;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#show-more-button {
+  background-color: #008cba;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .search-results {
+    padding: 20px;
+  }
+  .search-result {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #search-button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .search-results {
+    padding: 10px;
+  }
+  .search-result {
+    width: 100%;
+  }
+}
