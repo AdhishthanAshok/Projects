@@ -59,26 +59,35 @@ form {
 }
 
 .search-result {
+  border: 1px solid rgb(88, 86, 86);
+  padding: 5px 5px 5px 5px;
   width: calc(33.333% - 20px);
   margin-bottom: 20px;
-  background-color: rgb(4, 188, 188);
+  background-color: #242a2a;
+  transition: transform 0.1s;
+  border-radius: 15px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 1px rgb(19, 97, 161);
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
+.search-result:hover {
+  transform: scale(1.1);
+}
 
 .search-result img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: auto;
+  height: 200px;
+  object-fit: scale-down;
 }
 
 .search-result a {
   font-size: 16px;
   text-decoration: none;
-  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
   padding: 10px;
   text-transform: capitalize;
   flex: 1;
